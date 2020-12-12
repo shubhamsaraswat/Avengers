@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Welcome to Fitness World"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#493D26"
+        android:padding="20dp" />
+    <TextView
+        android:id="@+id/txtLayoutSubheador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="Stay Fit Stay Healthy"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#800000"/>
+    <ImageView
+        android:id="@+id/imgfitnessicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/fitness_icon"/>
+    <Button
+        android:id="@+id/btnclickhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="Click here"
+        android:textStyle="bold"
+        android:textColor="#583759"/>
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name here"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"/>
+
+</RelativeLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgavnger"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/avng"/>
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thanos"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/imgavnger"
+                android:layout_margin="20dp"
+                android:textColor="#483C32"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="thanos@gmail.com"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgavnger"
+                android:layout_below="@id/txtname"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#483C32"/>
+
+            <TextView
+                android:id="@+id/txtnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11011019287"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgavnger"
+                android:layout_below="@id/txtemail"
+                android:textColor="#483C32"
+                android:layout_margin="10dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgavnger1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/black_panther" />
+
+            <TextView
+                android:id="@+id/txtname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgavnger1"
+                android:text="Black panther"
+                android:textColor="#483C32"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtemail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtname1"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/imgavnger1"
+                android:text="panther@gmail.com"
+                android:textColor="#483C32"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtnumber1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemail1"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/imgavnger1"
+                android:text="98576534863"
+                android:textColor="#483C32"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgavnger2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/captain_america"/>
+            <TextView
+                android:id="@+id/txtname2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain America"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/imgavnger2"
+                android:layout_margin="20dp"
+                android:textColor="#483C32"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtemail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="America@gmail.com"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgavnger2"
+                android:layout_below="@id/txtname2"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#483C32"/>
+
+            <TextView
+                android:id="@+id/txtnumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9758872740"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgavnger2"
+                android:layout_below="@id/txtemail2"
+                android:textColor="#483C32"
+                android:layout_margin="10dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgavnger3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/hulk" />
+
+            <TextView
+                android:id="@+id/txtname3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_toRightOf="@+id/imgavnger3"
+                android:text="Hulk"
+                android:textColor="#483C32"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtemail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtname3"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/imgavnger3"
+                android:text="hulk@gmail.com"
+                android:textColor="#483C32"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtnumber3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtemail3"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/imgavnger3"
+                android:text="8859098455"
+                android:textColor="#483C32"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgavnger4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/widow"/>
+            <TextView
+                android:id="@+id/txtname4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Black Widow"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/imgavnger4"
+                android:layout_margin="20dp"
+                android:textColor="#483C32"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txtemail4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="widow@gmail.com"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgavnger4"
+                android:layout_below="@id/txtname4"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="#483C32"/>
+
+            <TextView
+                android:id="@+id/txtnumber4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9927288144"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/imgavnger4"
+                android:layout_below="@id/txtemail4"
+                android:textColor="#483C32"
+                android:layout_margin="10dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

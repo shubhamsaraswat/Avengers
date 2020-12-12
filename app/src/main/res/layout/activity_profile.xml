@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgavnger"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/avng"/>
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanos"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imgavnger"
+        android:layout_margin="20dp"
+        android:textColor="#483C32"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thanos@gmail.com"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgavnger"
+        android:layout_below="@id/txtname"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#483C32"/>
+
+    <TextView
+        android:id="@+id/txtnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11011019287"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgavnger"
+        android:layout_below="@id/txtemail"
+        android:textColor="#483C32"
+        android:layout_margin="10dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btninfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgavnger"
+        android:layout_margin="20dp"
+        android:text="MORE INFORMATION"
+        android:textSize="20sp"
+        android:textColor="#583759"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT APP"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="#E91E63"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
